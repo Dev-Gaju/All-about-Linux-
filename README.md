@@ -15,12 +15,16 @@ Information and Install Linux on Oracle Virtual Box:
 - delete empty directory `rmdir directory_name`
 - delete not empty directory `rm -r directory_name`
 - create any file `touch file.txt, touch file.py`
-- rename file name `mv file.py filesss.py`
+- `ls *.txt` present file which extention txt
+- move file to anohrt path `mv file.py location`
+- `cp file3.txt file4.txt` both file content will be same
 - find any file using `locate filename`
 - `clear`  erase the display.
 - write something on text file `echo I am Linux command writer >>file.txt`
 - display those contents like `cat file.txt 
-- `nano file.txt` to write content on nay file.
+- `nano file.txt`, `vi file.txt` to write content on nay file.
+- `head file.txt`, `tail file.txt` view 10 first or 10 last row
+- `wc file.txt` word and character in file
 - `man --help` Check command and how it work
 
 #### 2. Some Intermediate Command
