@@ -1,10 +1,10 @@
 <h2 style="color:blue;text-align:center;">Everything about Linux</h2>
 
 Information and Install Linux on Oracle Virtual Box:
-- **Instruction :** <a href="https://www.youtube.com/watch?v=v1JVqd8M3Yc">click here</a>
+- **Setup-Instruction :** <a href="https://www.youtube.com/watch?v=v1JVqd8M3Yc">click here</a>
 - **Download Virtualbox :** <a href="https://www.virtualbox.org/wiki/Downloads">check</a>
 - **Download Linux :** <a href="https://ubuntu.com/download/desktop">Downloads</a>
-- **Note :** Dont forget to eneble withdows virtualization technology on bios
+- **Note :** Dont forget to eneble windows virtualization technology on bios
 
 ## Lets talk about the Command 
 ---- check name of environment `uname`
@@ -29,8 +29,6 @@ Information and Install Linux on Oracle Virtual Box:
 - `man --help` Check command and how it work
 
 #### 2. Some Intermediate Command
-- `sudo` stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command. For example, if you want to edit a file like `viz. alsa-base.conf`, which needs root permissions `sudo nano alsa-base.conf.`, `sudo passwd` for change password.
-- `sudo apt-get install file`, `sudo apt-get upgrade`
 - `df -m` check which file contain how much storage.
 - use `zip file_folder` to zip and `unzip` to unzipe file folder.
 - `chmod +x file.py` a file on running mode, `sudo chmod +x file.py` to give root permission.
@@ -38,3 +36,16 @@ Information and Install Linux on Oracle Virtual Box:
 - ` ping google.com` to check internet connection.
 - power off or reboot the computer by using the command `sudo halt` and `sudo reboot`.
 - `Ctrl C` stop `Ctrl Z` forcefully stop
+- `uptime` run from how much times.
+- ` free -h` current storage limit
+- `man ps` `man file` check details about manual command
+
+### 3. Networking
+- `ifconfig` to find that install `sudo apt install net-tools`
+- `ip -a` to check ip and can manipulate by other commands.
+
+### 4. Packet Manager: 
+- `sudo` stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command. For example, if you want to edit a file like `viz. alsa-base.conf`, which needs root permissions `sudo nano alsa-base.conf.`, `sudo passwd` for change password.
+- to install `sudo apt install file`, check update `sudo apt update` do update `sudo apt upgrade` apt stand for advance packet manager tools.
+- search package `sudo apt search` to remove `sudo apt remove filename`
+
