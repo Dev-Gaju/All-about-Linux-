@@ -10,18 +10,19 @@ Information and Install Linux on Oracle Virtual Box:
 ---- check name of environment `uname`
 
 #### 1. About Directory
-- check folder on directory `ls`
-- make directory on folder `mkdir newFolder`
+- `pwd` check the current directory.
+- check folder on directory `ls`, `ls -a` show hidden file also `ls -l` show details & `ls -la`, `ls -lah`
+- make directory on folder `mkdir newFolder`, long folder `mkdir -p new/bdh/efgh/twi`
 - delete empty directory `rmdir directory_name`
-- delete not empty directory `rm -r directory_name`
+- delete not empty directory `rm -r directory_name`, `rm -i files` delete multiple files
 - create any file `touch file.txt, touch file.py`
 - `ls *.txt` present file which extention txt
-- move file to anohrt path `mv file.py location`
-- `cp file3.txt file4.txt` both file content will be same
+- move file to anohrt path also rename in one another `mv file.py location`
+- `cp file3.txt file4.txt`, `cp -r file3 file4` both file content will be same and also copy to another location
 - find any file using `locate filename`
 - `clear`  erase the display.
 - write something on text file `echo I am Linux command writer >>file.txt`
-- display those contents like `cat file.txt 
+- display those contents like `cat file.txt` , `cat text1.txt, text2.txt, text3.txt ->all.txt` `cat all.txt` see all content in same file
 - `nano file.txt`, `vi file.txt` to write content on nay file.
 - `head file.txt`, `tail file.txt` view 10 first or 10 last row
 - `wc file.txt` word and character in file
