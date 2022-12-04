@@ -40,12 +40,21 @@ Information and Install Linux on Oracle Virtual Box:
 - ` free -h` current storage limit
 - `man ps` `man file` check details about manual command
 
-### 3. Networking
+#### 3. Networking
 - `ifconfig` to find that install `sudo apt install net-tools`
 - `ip -a` to check ip and can manipulate by other commands.
 
-### 4. Packet Manager: 
+#### 4. Packet Manager: 
 - `sudo` stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command. For example, if you want to edit a file like `viz. alsa-base.conf`, which needs root permissions `sudo nano alsa-base.conf.`, `sudo passwd` for change password.
 - to install `sudo apt install file`, check update `sudo apt update` do update `sudo apt upgrade` apt stand for advance packet manager tools.
 - search package `sudo apt search` to remove `sudo apt remove filename`
+
+#### 5. User Athenication
+- `id user` check details about user
+- `sudo su` to go root user
+- `which useradd` where we can add user
+- `sudo useradd username` add any kind of user  --- main user can any sub user group
+
+#### Random Command 
+- `env`, ->`echo $PATH`, `alias`
 
