@@ -9,6 +9,7 @@ Information and Install Linux on Oracle Virtual Box:
  
 ## Lets talk about the Command 
 ---- check name of environment `uname`
+Version of Linux : Ubuntu,Linux Mint, Kali Linux, CentOS.
 
 #### 1. About Directory
 - `pwd` check the current directory.
